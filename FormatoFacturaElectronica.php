@@ -145,13 +145,13 @@ $IdDoc["FchVenc"]="2016-08-05";
 $IdDoc["TermPagoGlosa"]="CONTADO";
 #                                                                                                              
 # TIPO DE DOCUMENTO FV=33, ND=56, NC=61                                                                        
-$IdDoc["TipoDTE"]="61";
+$IdDoc["TipoDTE"]="33";
 #                                                                                                              
 # FOLIO DEL DOCUMENTO                                                                                          
-$IdDoc["Folio"]="38";
+$IdDoc["Folio"]="245";
 #                                                                                                              
 # INDICADOR DE LINEAS EN VALORES BRUTOS 1=SI 0=NO                                                              
-$IdDoc["MntBruto"]="1";
+$IdDoc["MntBruto"]="0";
                                                                                                                
 ##############################################################                                                 
 #######   EMISOR                                                                                               
@@ -213,7 +213,7 @@ $Receptor["CmnaRecep"]="SANTIAGO";
 $Receptor["CiudadRecep"]="SANTIAGO";
 #                                                                                                              
 # CONTACTO RECEPTOR                                                                                            
-$Receptor["Contacto"]="juan perez";//"";
+$Receptor["Contacto"]="juan perez"; 
 #                                                                                                              
 # CORREO RECEPTOR                                                                                              
 $Receptor["CorreoRecep"]="contacto@factronica.cl";
@@ -227,16 +227,16 @@ $Receptor["CorreoRecep"]="contacto@factronica.cl";
 $Totales["TasaIVA"]="19";
 #                                                                                                              
 # NETO AFECTO                                                                                                  
-$Totales["MntNeto"]="12033";
+$Totales["MntNeto"]="10000";
 #                                                                                                              
 # NETO EXENTO                                                                                                  
 $Totales["MntExe"]="0";
 #                                                                                                              
 # MONTO IVA                                                                                                    
-$Totales["IVA"]="2286";
+$Totales["IVA"]="1900";
 #                                                                                                              
 # MONTO TOTAL BRUTO                                                                                            
-$Totales["MntTotal"]="14319";
+$Totales["MntTotal"]="11900";
 
 ##############################################################                                                 
 #######    DETALLE                                                                                             
@@ -245,33 +245,20 @@ $Totales["MntTotal"]="14319";
 #                                                                                                              
 $detalle["1"]["NroLinDet"]="1";
 $detalle["1"]["NmbItem"]="";
-$detalle["1"]["DscItem"]="BOTELLA DE AGUA 900CC. AZUL";
+$detalle["1"]["DscItem"]="GALLETA TRITON";
 $detalle["1"]["TpoCodigo"]="INT1";
 $detalle["1"]["UnmdItem"]="UNI";
-$detalle["1"]["QtyItem"]="43";
+$detalle["1"]["QtyItem"]="2";
 $detalle["1"]["VlrCodigo"]="BA900-A";
-$detalle["1"]["PrcItem"]="333";
+$detalle["1"]["PrcItem"]="500";
 $detalle["1"]["CodImpAdic"]="";
-$detalle["1"]["MontoItem"]="333";
+$detalle["1"]["MontoItem"]="1000";
 $detalle["1"]["DescuentoPct"]="0";
 $detalle["1"]["DscItemPesos"]="0";
 $detalle["1"]["IndExe"]="0";
 
 
-##############################################################                                                 
-#######    REFERENCIAS                                                                                         
-##############################################################                                                 
-# folio del documento referenciado
-$doc_referencia["1"]["FolioRef"]="4775";                                                                     
-# Tipo de Documento Referenciado 33=FacturaElectronica
-$doc_referencia["1"]["TpoDocRef"]="33";                                                                      
-# Comentario de la Referencia
-$doc_referencia["1"]["RazonRef"]="Anula Factura 4775";                                                           
-# 1=Anula 2=CorrigeValores 3=CorrigeTextos
-$doc_referencia["1"]["CodRef"]="1";
-# Fecha del Documento referenciado formato aaaa-mm-dd
-$doc_referencia["1"]["FchRef"]="2016-04-28";                                                                  
-
+ 
 ##############################################################                                                 
 #######   DATOS CERTIFICADO DE PERSONA QUE FIRMA Y ENVIA                                                       
 ##############################################################                                                 
@@ -355,12 +342,14 @@ $CAF["FRMA"]="m3Fbb+Qkb25+kbAwtU7Z9usUEv+yE4SV58PsLCWEHt1WJQNJGoIuGo86NhhyLCLqFR
 #                                                                                                              
 #                                                                                                              
 # LLAVE PRIVADA DEL TIMBRAJE                                                                                   
-$CAF["RSASK"]="-----BEGIN RSA PRIVATE KEY----- MIIBOQIBAAJBAKC4NX13lpWvPlAmIkRdk4yWlDLbIxPAdYgIX7fPWfp7dvF/2Yqy oy3pR7S84jsTxKr4SWXAt5i05VGZoVDZ+BUCAQMCQGsleP5PubkffuAZbC2Tt7MP DXc8wg0q+QVa6nqKO/xRQM1X61tOVmUMAgvdjxd39wBLQjCs0VACVcb9Ay11EvMC 
+$CAF["RSASK"]="-----BEGIN RSA PRIVATE KEY----- MIIBOQIBAAJBAKC4NX13lpWvPlAmIkRdk4yWlDLbIxPAdYgIX7fPWfp7dvF/2Yq
+y oy3pR7S84jsTxKr4SWXAt5i05VGZoVDZ+BUCAQMCQGsleP5PubkffuAZbC2Tt7MP DXc8wg0q+QVa6nqKO/xRQM1X61tOVmUMAgvdjxd39wBLQjCs0VACVcb9Ay11EvMC 
 IQDOV+DHoqAGMIjct0V/NQhmmovllXLPBRBk3/nfbMOkGwIhAMdlmzDfHRtlzmfr qwxi12uP+4CHSq6boP/HJD0f5rePAiEAiY/rL8HABCBbPc+DqiNa7xGymQ5MigNg Qz/76kiCbWcCIQCE7md16hNnmTRFR8ddlzpHtVJVr4cfEmtVL21+FUR6XwIgJppW G8JRwJz6QFYnzfW/v/+JB/TKD6FHytwp4ODCvac= -----END RSA 
 PRIVATE KEY----- ";
 #                                                                                                              
 #                                                                                                              
 # LLAVE PUBLICA DEL TIMBRAJE                                                                                   
 $CAF["RSAPUBK"]="-----BEGIN PUBLIC KEY----- MFowDQYJKoZIhvcNAQEBBQADSQAwRgJBAKC4NX13lpWvPlAmIkRdk4yWlDLbIxPA dYgIX7fPWfp7dvF/2Yqyoy3pR7S84jsTxKr4SWXAt5i05VGZoVDZ+BUCAQM= -----END PUBLIC KEY----- ";
-?>                                                                                                             
+?> 
 
+ 
