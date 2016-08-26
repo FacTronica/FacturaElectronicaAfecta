@@ -24,18 +24,21 @@ Dentro del archivo de texto plano debe ir la siguiente información:
 <br>-Datos de Timbraje
 <br>-Datos de Certificado
 
-Desde la siguiente Url se puede obtener el Formato Requerido a generar para realizar la emisión de Factura Electrónica Afecta.
+Desde la siguiente Url se puede obtener el Formato Requerido a Generar para Factura Electrónica Afecta.
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
 
-<h3>Proceso 2: Enviar Archivo Plano</h3>
+<h3>Proceso 2: Enviar Archivo Txt</h3>
 El archivo de texto plano generado en el "Proceso 1", se debe enviar al servidor de Facturación.
 <br>Para realizar este proceso se hace uso de librería opensource CURL.
 A continuación ejemplos para realizar el envío del Txt al Servidor de Facturación.
 
-<br><b>Enviar archivo desde Consola Windows:</b>
+<br><b>Enviar archivo txt desde Consola Windows:</b>
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
 
 <b>Enviar archivo desde Consola Linux:</b>
+<br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
+
+<b>Enviar archivo txt desde Php:</b>
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
 
 <h3>Proceso 3: Recuperar Resultados:</h3>
