@@ -13,16 +13,16 @@ Para realizar la integración se deben realizar 3 procesos.
 <h3>Proceso 1: Generar Archivo Plano</h3>
 Este proceso Consiste en generar un archivo de texto plano con el formato requerido.
 Dentro del archivo de texto plano debe ir la siguiente información:
--Datos del Servidor
--Datos de Caratula
--Datos de Emisor
--Datos de Receptor
--Datos de Detalle
--Datos de Descuentos/Recargos Globales
--Datos de Totales
--Datos de Referencias
--Datos de Timbraje
--Datos de Certificado
+<br>-Datos del Servidor
+<br>-Datos de Caratula
+<br>-Datos de Emisor
+<br>-Datos de Receptor
+<br>-Datos de Detalle
+<br>-Datos de Descuentos/Recargos Globales
+<br>-Datos de Totales
+<br>-Datos de Referencias
+<br>-Datos de Timbraje
+<br>-Datos de Certificado
 
 Desde la siguiente Url se puede obtener el Formato Requerido a generar para realizar la emisión de Factura Electrónica Afecta.
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
