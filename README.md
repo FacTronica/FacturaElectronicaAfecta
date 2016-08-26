@@ -39,7 +39,10 @@ A continuación ejemplos para realizar el envío del Txt al Servidor de Facturac
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
 
 <b>Enviar archivo txt desde Php:</b>
-<br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
+$DocDte=new FactronicaWebservice(); 
+$DocDte->FactronicaEnviarPost();
+Más info de WebService Factronica Cliente
+<br>https://github.com/FacTronica/FactronicaWebserviceCliente
 
 <h3>Proceso 3: Recuperar Resultados:</h3>
 Consiste en obtener los archivos con resultados.
