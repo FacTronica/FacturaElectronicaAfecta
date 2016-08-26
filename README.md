@@ -11,19 +11,31 @@ Para realizar la integración se deben realizar 3 procesos.
 3.-Recuperar Resultados desde Servidor de Facturación.<br>
 
 <h3>Proceso 1: Generar Archivo Plano</h3>
-Consiste en generar un archivo de texto plano con el formato requerido.
+Este proceso Consiste en generar un archivo de texto plano con el formato requerido.
+Dentro del archivo de texto plano debe ir la siguiente información:
+-Datos del Servidor
+-Datos de Caratula
+-Datos de Emisor
+-Datos de Receptor
+-Datos de Detalle
+-Datos de Descuentos/Recargos Globales
+-Datos de Totales
+-Datos de Referencias
+-Datos de Timbraje
+-Datos de Certificado
 
-Url con Formato Acuse Recibo Dte:
+Desde la siguiente Url se puede obtener el Formato Requerido a generar para realizar la emisión de Factura Electrónica Afecta.
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
 
 <h3>Proceso 2: Enviar Archivo Plano</h3>
-El archivo de texto plano se debe enviar al servidor de facturación.
+El archivo de texto plano generado en el "Proceso 1", se debe enviar al servidor de Facturación.
 <br>Para realizar este proceso se hace uso de librería opensource CURL.
+A continuación ejemplos para realizar el envío del Txt al Servidor de Facturación.
 
-<br>Enviar archivo desde Consola Windows:
+<br><b>Enviar archivo desde Consola Windows:</b>
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
 
-Enviar archivo desde Consola Linux:
+<b>Enviar archivo desde Consola Linux:</b>
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
 
 <h3>Proceso 3: Recuperar Resultados:</h3>
