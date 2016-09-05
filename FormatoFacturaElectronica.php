@@ -181,6 +181,10 @@ $Emisor["CmnaOrigen"]="PUNTA ARENAS";
 # CIUDAD EMISOR                                                                                                
 $Emisor["CiudadOrigen"]="PUNTA ARENAS";
 #                                                                                                              
+# Código del Vendedor - Glosa con identificador del vendedor
+# Adminite un máximo de 60 carácteres alfanumericos
+$Emisor["CdgVendedor"]="PERICO LOS PALOTES";
+#                                                                                                              
 # EMAIL EMISOR                                                                                                 
 $Emisor["CorreoEmisor"]="ventas1@MARKETING.cl";
 #                                                                                                              
