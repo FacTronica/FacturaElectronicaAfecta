@@ -46,11 +46,11 @@ $url_logo="";// utilizar url normal sin https ni url corta          https://goo.
 # URL DEL LOGO CENTRAL A INSERTAR EN EL PDF POR EJ. HTTP://www.domain.cl/logo.png  240X240 PIXELS              
 $url_logo_central="";                                                                                          
 #                                                                                                              
-# INDICA LA CANTIDAD DE DECIMALES A MOSTRAR EN EL PDF Y XML                                                    
-$decimales_item_unitario="0";                                                                                  
-#                                                                                                              
-# INDICA LA CANTIDAD DE ESPACIADO ENTRE CADA LINEA DEL DETALLE                                                 
-$espaciado_items="7";                                                                                          
+# INDICA LA CANTIDAD DE DECIMALES A MOSTRAR EN LA COLUMNA CANTIDAD DEL PDF
+$CONFACTRONICA["PDFDECIMALESCANTIDAD"]="0";
+#
+# INDICA LA CANTIDAD DE DECIMALES A MOSTRAR EN LA COLUMNA UNITARIO DEL PDF
+$CONFACTRONICA["PDFDECIMALESUNITARIO"]="";                                                                                 
 #                                                                                                              
 # NOMBRE DEL PROVEEDOR DE FACTURA ELECTRONICA QUE APARECE AL PIE DEL PDF                                       
 $nom_proveedor="FACTRONICA";                                                                                   
