@@ -248,17 +248,29 @@ $Totales["MntTotal"]="11900";
 #                                                                                                              
 #                                                                                                              
 $detalle["1"]["NroLinDet"]="1";
-$detalle["1"]["NmbItem"]="";
-$detalle["1"]["DscItem"]="GALLETA TRITON";
+# Nombre del Item
+$detalle["1"]["NmbItem"]="Paracetamol 40 MG.";
+#
+$detalle["1"]["DscItem"]="Paracetamol 40 Mg. Laboratorio Chile Muestra Médica";
+# Tipo de Codigo
 $detalle["1"]["TpoCodigo"]="INT1";
+#
+$detalle["1"]["VlrCodigo"]="110223";
+# Unidad de Medida 3 caracteres por ej. UNI
 $detalle["1"]["UnmdItem"]="UNI";
+# Cantidad
 $detalle["1"]["QtyItem"]="2";
-$detalle["1"]["VlrCodigo"]="BA900-A";
+# Precio Unitario
 $detalle["1"]["PrcItem"]="500";
+# Codigo del Impuesto Adicional por ej. 27
 $detalle["1"]["CodImpAdic"]="";
+# Subtotal
 $detalle["1"]["MontoItem"]="1000";
+# Descuento Porcentaje
 $detalle["1"]["DescuentoPct"]="0";
+# Descuento Pesos
 $detalle["1"]["DscItemPesos"]="0";
+# Switch indicador de item exento 1=si 0=no
 $detalle["1"]["IndExe"]="0";
 
 ##################################################################                                                
@@ -289,39 +301,16 @@ $doc_referencia["1"]["FchRef"]="2016-04-28";
 #                                                                                                              
 #                                                                                                              
 # MODULO DEL CERTIFICADO                                                                                       
-$certificado["Modulus"]="25M946l8R4x/8I/CvY5ZWUowngAmi2g/ACUOPL9yOvMuRJymHoVRY2cl+bIzirjI
-S09xOouvXL5lv5QzQiz/lkeF4fyWgisW+WEx/67oGbumUcqD1H1NFVYlg0Dd3Gw1
-vYTsRWa9XMBgAzaHktGEgaFegsVm/Hze0sjn52KRnXk=
-";
-#                                                                                                              
+$certificado["Modulus"]="nnnnnnnnnnn";                                                                           
 #                                                                                                              
 # EXPONENTE DEL CERTIFICADO                                                                                    
-$certificado["Exponent"]="AQAB
-";
-#                                                                                                              
+$certificado["Exponent"]="nnnn";                                                                                 
 #                                                                                                              
 # CERTIFICADO X509                                                                                             
-$certificado["X509Certificate"]="MIIGSzCCBTOgAwIBAgIKHynmewAAAASOcTANBgkqhkiG9w0BAQUFADCB0jELMAkG
-A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
-EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
-dHOWnoUV+lNNKKsfI0OTqQDvFQ5dasp+GhypO3LNGWfC5S9PZi246Q4/6HyXdF+U
-2DHgwUO0j729nP/SZ/w8G6GpJtsG8swp6TcLrftVTEyOlwya37O6bZGFJYHSzmMR
-/sppfb06gH1y+ONIYiyTPtjYJpPt8dMV/KVE/JW5uw==";
-#                                                                                                              
-#                                                                                                              
+$certificado["X509Certificate"]="nnnnnnnn";
+#                                                                                                                                                                                    
 # LLAVE PRIVADA SIN CLAVE                                                                                      
-$certificado["PrivKey"]="-----BEGIN RSA PRIVATE KEY-----
-MIICXQIBAAKBgQDbkz3jqXxHjH/wj8K9jllZSjCeACaLaD8AJQ48v3I68y5EnKYe
-hVFjZyX5sjOKuMhLT3E6i69cvmW/lDNCLP+WR4Xh/JaCKxb5YTH/rugZu6ZRyoPU
-LRSUrqGdVXNw+3IoM+eNakT3ZxQ73P+TOoEtkteWhVzolU8rJGs2LW1InG9BAkBT
-hZ04Uhrtb6pOSEi7inMEpnUDraMP7lrfjJNAZ6N5j/jKpJG9JPSkbs/5cZqQeV3a
-AeuZh2qf2xgTEYHxdl35AkBRoBTl+zYP89XA+15foXQzLfLuTCeA3bWlMdgpVpeM
-Dj8kJefDsk1wryMlF7SPBXxAEIrTYUR91wgj21b5DYSK
------END RSA PRIVATE KEY-----";
-                                                                                                               
-                                                                                                               
-                                                                                                               
-                                                                                                               
+$certificado["PrivKey"]="nnnnnnn";
 ##############################################################                                                 
 #######   CARGAR DATOS DE TIMBRAJE DE FOLIOS                                                                   
 ##############################################################                                                 
