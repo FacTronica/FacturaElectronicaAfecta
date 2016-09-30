@@ -245,13 +245,6 @@ $ImptoReten["24"]["TipoImp"]="24";
 $ImptoReten["24"]["TasaImp"]="31.5";
 # Monto de Impuesto del Tipo 24
 $ImptoReten["24"]["MontoImp"]="31500";
-#
-# Impuesto Adicional Tipo 25=Vinos
-$ImptoReten["25"]["TipoImp"]="25";
-# Tasa de Impuesto del Tipo 24
-$ImptoReten["25"]["TasaImp"]="20.5";
-# Monto de Impuesto del Tipo 25
-$ImptoReten["25"]["MontoImp"]="20500";  
 #                                                                                                              
 # MONTO TOTAL BRUTO                                                                                            
 $Totales["MntTotal"]="11900";
@@ -263,9 +256,9 @@ $Totales["MntTotal"]="11900";
 #                                                                                                              
 $detalle["1"]["NroLinDet"]="1";
 # Nombre del Item
-$detalle["1"]["NmbItem"]="Paracetamol 40 MG.";
+$detalle["1"]["NmbItem"]="Whisky JB Gold";
 #
-$detalle["1"]["DscItem"]="Paracetamol 40 Mg. Laboratorio Chile Muestra Médica";
+$detalle["1"]["DscItem"]="Whisky JB Gold Edicion Premier";
 # Tipo de Codigo
 $detalle["1"]["TpoCodigo"]="INT1";
 #
@@ -275,11 +268,11 @@ $detalle["1"]["UnmdItem"]="UNI";
 # Cantidad
 $detalle["1"]["QtyItem"]="2";
 # Precio Unitario
-$detalle["1"]["PrcItem"]="500";
-# Codigo del Impuesto Adicional por ej. 27
-$detalle["1"]["CodImpAdic"]="";
+$detalle["1"]["PrcItem"]="10000";
+# Codigo del Impuesto Adicional por ej. 24=Whisky
+$detalle["1"]["CodImpAdic"]="24";
 # Subtotal
-$detalle["1"]["MontoItem"]="1000";
+$detalle["1"]["MontoItem"]="20000";
 # Descuento Porcentaje
 $detalle["1"]["DescuentoPct"]="0";
 # Descuento Pesos
@@ -290,93 +283,56 @@ $detalle["1"]["IndExe"]="0";
 ##################################################################                                                
 #######    REFERENCIAS DE FACTURACIÓN CONTRA NOTA DE PEDIDO/VENTA                                                                              
 ##################################################################
-#
 # Debe ir vacio
 $doc_referencia["1"]["IndGlobal"]="";    
-#
 # Folio de la Nota de Pedido o Nota de venta
 $doc_referencia["1"]["FolioRef"]="3345";                                                  
-#
 # 802 es el codigo para notas de pedido/venta
 $doc_referencia["1"]["TpoDocRef"]="802"; 
-#
 # Comentario de la Referencia
 $doc_referencia["1"]["RazonRef"]="Nota de Pedido 3345";                                                           
-#
-# El codigo de referencia debe ir vacio
+# El codigo de referencia Solo se utiliza en Nota Credito y Debito 1 2 3
 $doc_referencia["1"]["CodRef"]="";
-#
 # Fecha de de emisión de la nota de pedido formato aaaa-mm-dd
 $doc_referencia["1"]["FchRef"]="2016-04-28";   
  
 ##############################################################                                                 
 #######   DATOS CERTIFICADO DE PERSONA QUE FIRMA Y ENVIA                                                       
 ##############################################################                                                 
-#                                                                                                              
-#                                                                                                              
 # MODULO DEL CERTIFICADO                                                                                       
 $certificado["Modulus"]="nnnnnnnnnnn";                                                                           
-#                                                                                                              
 # EXPONENTE DEL CERTIFICADO                                                                                    
 $certificado["Exponent"]="nnnn";                                                                                 
-#                                                                                                              
 # CERTIFICADO X509                                                                                             
 $certificado["X509Certificate"]="nnnnnnnn";
-#                                                                                                                                                                                    
 # LLAVE PRIVADA SIN CLAVE                                                                                      
 $certificado["PrivKey"]="nnnnnnn";
+
 ##############################################################                                                 
-#######   CARGAR DATOS DE TIMBRAJE DE FOLIOS                                                                   
+####### DATOS DE TIMBRAJE DE FOLIOS                                                                   
 ##############################################################                                                 
 # RUT EMISOR                                                                                                   
-$CAF["RE"]="777777-7";
-#                                                                                                              
-#                                                                                                              
+$CAF["RE"]="777777-7";                                                                                  
 # RAZON SOCIAL EMISOR                                                                                          
-$CAF["RS"]="PRUEBA LIMITADA";
-#                                                                                                              
-#                                                                                                              
+$CAF["RS"]="PRUEBA LIMITADA";                                                                                                              
 # TIPO DE DOCUMENTO                                                                                            
 $CAF["TD"]="33";
-#                                                                                                              
-#                                                                                                              
 # FOLIO DESDE                                                                                                  
-$CAF["RNG_D"]="1";
-#                                                                                                              
-#                                                                                                              
+$CAF["RNG_D"]="1";                                                                                         
 # FOLIO HASTA                                                                                                  
-$CAF["RNG_H"]="80";
-#                                                                                                              
-#                                                                                                              
+$CAF["RNG_H"]="80";                                                                                             
 # FECHA AUTORIZACION TIMBRAJE                                                                                  
-$CAF["FA"]="2016-07-29";
-#                                                                                                              
-#                                                                                                              
+$CAF["FA"]="2016-07-29";                                                                                            
 # MODULO LLAVE PRIVADA TIMBRAJE                                                                                
-$CAF["RSAPK_M"]="oLg1fXeWla8+UCYiRF2TjJaUMtsjE8B1iAhft89Z+nt28X/ZirKjLelHtLziOxPEqvhJZcC3mLTlUZmhUNn4FQ==";
-#                                                                                                              
-#                                                                                                              
+$CAF["RSAPK_M"]="nnnn";
 # MODULO EXPONENTE TIMBRAJE                                                                                    
-$CAF["RSAPK_E"]="Aw==";
-#                                                                                                              
-#                                                                                                              
+$CAF["RSAPK_E"]="nnnn";
 # INDICE DEL TIMBRAJE                                                                                          
-$CAF["RSAPK_IDK"]="300";
-#                                                                                                              
-#                                                                                                              
+$CAF["RSAPK_IDK"]="nnn";
 # FIRMA DEL TIMBRAJE                                                                                           
-$CAF["FRMA"]="m3Fbb+Qkb25+kbAwtU7Z9usUEv+yE4SV58PsLCWEHt1WJQNJGoIuGo86NhhyLCLqFRgHO1OC/u0o74LIRRifIg==";
-#                                                                                                              
-#                                                                                                              
+$CAF["FRMA"]="nnnnnn";
 # LLAVE PRIVADA DEL TIMBRAJE                                                                                   
-$CAF["RSASK"]="-----BEGIN RSA PRIVATE KEY----- MIIBOQIBAAJBAKC4NX13lpWvPlAmIkRdk4yWlDLbIxPAdYgIX7fPWfp7dvF/2Yq
-y oy3pR7S84jsTxKr4SWXAt5i05VGZoVDZ+BUCAQMCQGsleP5PubkffuAZbC2Tt7MP DXc8wg0q+QVa6nqKO/xRQM1X61tOVmUMAgvdjxd39wBLQjCs0VACVcb9Ay11EvMC 
-IQDOV+DHoqAGMIjct0V/NQhmmovllXLPBRBk3/nfbMOkGwIhAMdlmzDfHRtlzmfr qwxi12uP+4CHSq6boP/HJD0f5rePAiEAiY/rL8HABCBbPc+DqiNa7xGymQ5MigNg Qz/76kiCbWcCIQCE7md16hNnmTRFR8ddlzpHtVJVr4cfEmtVL21+FUR6XwIgJppW G8JRwJz6QFYnzfW/v/+JB/TKD6FHytwp4ODCvac= -----END RSA 
-PRIVATE KEY----- ";
-#                                                                                                              
-#                                                                                                              
+$CAF["RSASK"]="nnnnnnn";
 # LLAVE PUBLICA DEL TIMBRAJE                                                                                   
-$CAF["RSAPUBK"]="-----BEGIN PUBLIC KEY----- MFowDQYJKoZIhvcNAQEBBQADSQAwRgJBAKC4NX13lpWvPlAmIkRdk4yWlDLbIxPA dYgIX7fPWfp7dvF/2Yqyoy3pR7S84jsTxKr4SWXAt5i05VGZoVDZ+BUCAQM= -----END PUBLIC KEY----- ";
-?> 
-
- 
+$CAF["RSAPUBK"]="nnnnnnn";
+?>
