@@ -238,6 +238,11 @@ $Totales["MntExe"]="0";
 #                                                                                                              
 # MONTO IVA                                                                                                    
 $Totales["IVA"]="1900";
+# Impuestos Adicionales
+$ImptoReten["33"]["TipoImp"]="";
+$ImptoReten["33"]["TasaImp"]="";
+$ImptoReten["33"]["MontoImp"]="";
+  
 #                                                                                                              
 # MONTO TOTAL BRUTO                                                                                            
 $Totales["MntTotal"]="11900";
