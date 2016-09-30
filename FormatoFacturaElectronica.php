@@ -238,11 +238,20 @@ $Totales["MntExe"]="0";
 #                                                                                                              
 # MONTO IVA                                                                                                    
 $Totales["IVA"]="1900";
-# Impuestos Adicionales
-$ImptoReten["33"]["TipoImp"]="";
-$ImptoReten["33"]["TasaImp"]="";
-$ImptoReten["33"]["MontoImp"]="";
-  
+#
+# Impuesto Adicional Tipo 24=Licores, Piscos, whisky, aguardiente, vinos licorosos o aromatizados
+$ImptoReten["24"]["TipoImp"]="24";
+# Tasa de Impuesto del Tipo 24
+$ImptoReten["24"]["TasaImp"]="31.5";
+# Monto de Impuesto del Tipo 24
+$ImptoReten["24"]["MontoImp"]="31500";
+#
+# Impuesto Adicional Tipo 25=Vinos
+$ImptoReten["25"]["TipoImp"]="25";
+# Tasa de Impuesto del Tipo 24
+$ImptoReten["25"]["TasaImp"]="20.5";
+# Monto de Impuesto del Tipo 25
+$ImptoReten["25"]["MontoImp"]="20500";  
 #                                                                                                              
 # MONTO TOTAL BRUTO                                                                                            
 $Totales["MntTotal"]="11900";
