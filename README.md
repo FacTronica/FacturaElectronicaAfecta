@@ -21,7 +21,7 @@ Dentro del archivo de texto plano debe ir la siguiente información:
 <br>-Datos de Descuentos/Recargos Globales
 <br>-Datos de Totales
 <br>-Datos de Referencias
-<br>-Datos de Timbraje
+<br>-Datos de Timbraje ( https://github.com/FacTronica/TimbrajeElectronico/blob/master/EjemploTimbrajeFolios.xml )
 <br>-Datos de Certificado
 
 Desde la siguiente Url se puede obtener el Formato Requerido a Generar para Factura Electrónica Afecta.
