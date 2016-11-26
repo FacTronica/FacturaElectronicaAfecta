@@ -44,8 +44,20 @@ $DocDte->FactronicaEnviarPost();
 Más info de WebService Factronica Cliente
 <br>https://github.com/FacTronica/FactronicaWebserviceCliente
 
-<h3>Proceso 3: Recuperar Resultados:</h3>
-Consiste en obtener los archivos con resultados.
+
+<h3>Proceso 3: Recuperar el XML con Libro d Ventas:</h3>
+Este proceso es necesario para poder obtener una copia del xml del libro de ventas para poder respaldarlo y posteriormente enviarlo al sii.
+
+<br>WINDOWS:
+c:\curl\curl.exe -o c:\libros\libroventas201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas201611.xml
+
+<br>LINUX:
+curl -o libroventas201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas201611.xml
+
+
+<h3>Proceso 4: Recuperar Resultados:</h3>
+Este proceso es para poder consultar al sii el estado del envío del libro.
+El SII responderá con un xml con la aprobación , reparo o rechazo del envío.
 
 Recuperar resultados desde Consola Windows:
 c:\curl\curl.exe -o c:\curl\dte_rut333333333_tipo33_folio777.xml http://www.factronica.cl/sdk/ws_servidor/xml/dte_rut333333333_tipo33_folio777.xml
