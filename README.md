@@ -10,7 +10,7 @@ SDK Factronica
 <h3>Proceso 1: Generar Archivo Plano</h3>
 Este proceso Consiste en generar un archivo de texto plano con el formato requerido por el sdk de factronica.
 <br>Dentro del archivo de texto plano debe ir la información que compone al documento emitido:
-<br><br>-Datos del Servidor de Facturación
+<br>-Datos del Servidor de Facturación
 <br>-Datos de Caratula
 <br>-Datos de Emisor
 <br>-Datos de Receptor
@@ -20,8 +20,7 @@ Este proceso Consiste en generar un archivo de texto plano con el formato requer
 <br>-Datos de Referencias
 <br>-Datos de Timbraje
 <br>-Datos de Certificado
-
-<br>Desde la siguiente Url se puede obtener el Formato del archivo TXT Requerido a Generar para Factura Electrónica Afecta.
+<br>Ver Formato del archivo TXT para Factura Electrónica Afecta.
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
 <br><h3>Proceso 2: Enviar Archivo Txt</h3>
 Para enviar el archivo plano TXT al servidor de Facturación se hace uso de librería opensource CURL.
