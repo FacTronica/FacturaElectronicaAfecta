@@ -55,13 +55,12 @@ Este proceso es necesario para poder obtener una copia del xml del documento ele
 <br>curl -o factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
 
 
-<h3>Proceso 4: Recuperar Resultados:</h3>
-Este proceso es para poder consultar al sii el estado del envío del libro.
-El SII responderá con un xml con la aprobación , reparo o rechazo del envío.
 
-Recuperar resultados desde Consola Windows:
-c:\curl\curl.exe -o c:\curl\dte_rut333333333_tipo33_folio777.xml http://www.factronica.cl/sdk/ws_servidor/xml/dte_rut333333333_tipo33_folio777.xml
+<h3>Proceso 4: Recuperar el PDF con Documento Electrónico:</h3>
+Este proceso es necesario para poder obtener una copia del pdf del documento electrónico.
 
-Recuperar resultados desde Consola Linux:
-curl -o dte_rut333333333_tipo33_folio777.xml http://www.factronica.cl/sdk/ws_servidor/xml/dte_rut333333333_tipo33_folio777.xml
+<br>WINDOWS:
+<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.pdf http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.pdf
 
+<br>LINUX:
+<br>curl -o factura_folio777_tipo33.pdf http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.pdf
