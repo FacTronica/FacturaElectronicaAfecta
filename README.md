@@ -23,36 +23,27 @@ Este proceso Consiste en generar un archivo de texto plano con el formato requer
 
 <br>Desde la siguiente Url se puede obtener el Formato del archivo TXT Requerido a Generar para Factura Electrónica Afecta.
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
-
-<h3>Proceso 2: Enviar Archivo Txt</h3>
-<br>Para enviar el archivo plano TXT al servidor de Facturación se hace uso de librería opensource CURL.
+<br><h3>Proceso 2: Enviar Archivo Txt</h3>
+Para enviar el archivo plano TXT al servidor de Facturación se hace uso de librería opensource CURL.
 <br><br>Enviar archivo txt desde Consola Windows:
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
 <br><br>Enviar archivo desde Consola Linux:
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
-<h3>Proceso 3: Recuperar el XML con TrackID:</h3>
+<br><h3>Proceso 3: Recuperar el XML con TrackID:</h3>
 Este proceso es necesario para poder validar que el SII Chile haya recibido el documento emitido.
 <br><br>WINDOWS:
 <br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33_trackid.xml http://www.factronica.cl/factronica_webservice_servidor_beta/trackid/factura_folio777_tipo33_trackid.xml
 <br><br>LINUX:
 <br>curl -o factura_folio777_tipo33_trackid.xml http://www.factronica.cl/factronica_webservice_servidor_beta/trackid/factura_folio777_tipo33_trackid.xml
-<h3>Proceso 4: Recuperar el PDF con Documento Electrónico:</h3>
+<br><h3>Proceso 4: Recuperar el PDF con Documento Electrónico:</h3>
 Este proceso es necesario para poder obtener una copia del pdf del documento electrónico.
-
-<br>WINDOWS:
+<br><br>WINDOWS:
 <br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.pdf http://www.factronica.cl/factronica_webservice_servidor_beta/pdf/factura_folio777_tipo33.pdf
-
-<br>LINUX:
+<br><br>LINUX:
 <br>curl -o factura_folio777_tipo33.pdf http://www.factronica.cl/factronica_webservice_servidor_beta/pdf/factura_folio777_tipo33.pdf
-
-
-<h3>Proceso 5: Recuperar el XML con Documento Electrónico:</h3>
+<br><h3>Proceso 5: Recuperar el XML con Documento Electrónico:</h3>
 Este proceso es necesario para poder obtener una copia del xml del documento electrónico.
-
-<br>WINDOWS:
+<br><br>WINDOWS:
 <br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
-
-<br>LINUX:
+<br><br>LINUX:
 <br>curl -o factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
-
-
