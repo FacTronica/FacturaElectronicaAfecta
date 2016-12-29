@@ -1,9 +1,8 @@
 # Factura Electrónica Afecta
 SDK Factronica
-
 <br>A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio.
 <h3>Procesos:</h3>
-<br>1.-Generar Archivo Plano TXT
+1.-Generar Archivo Plano TXT
 <br>2.-Enviar Archivo Plano al Servidor de Facturación
 <br>3.-Recuperar Archivo XML con TrackID
 <br>4.-Recuperar Archivo XML con Documento Electrónico
