@@ -3,15 +3,14 @@ SDK Factronica
 <br>A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio.
 <h3>Procesos:</h3>
 1.-Generar Archivo Plano TXT
-<br>2.-Enviar Archivo Plano al Servidor de Facturación
+<br>2.-Enviar Archivo Plano TXT al Servidor de Facturación
 <br>3.-Recuperar Archivo XML con TrackID
 <br>4.-Recuperar Archivo XML con Documento Electrónico
 <br>5.-Recuperar Archivo PDF con Documento Electrónico
-
 <h3>Proceso 1: Generar Archivo Plano</h3>
-<br>Este proceso Consiste en generar un archivo de texto plano con el formato requerido por el sdk de factronica.
+Este proceso Consiste en generar un archivo de texto plano con el formato requerido por el sdk de factronica.
 <br>Dentro del archivo de texto plano debe ir la información que compone al documento emitido:
-<br>-Datos del Servidor de Facturación
+<br><br>-Datos del Servidor de Facturación
 <br>-Datos de Caratula
 <br>-Datos de Emisor
 <br>-Datos de Receptor
