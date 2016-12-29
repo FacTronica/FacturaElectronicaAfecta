@@ -43,7 +43,7 @@ Este proceso es necesario para poder obtener una copia del pdf del documento ele
 <br>curl -o factura_folio777_tipo33.pdf http://www.factronica.cl/factronica_webservice_servidor_beta/pdf/factura_folio777_tipo33.pdf
 <br><h3>Proceso 5: Recuperar el XML con Documento Electrónico:</h3>
 Este proceso es necesario para poder obtener una copia del xml del documento electrónico.
-<br><br>WINDOWS:
+<br><br><b>Recuperar archivo Xml con Windows:</b>
 <br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
-<br><br>LINUX:
+<br><br><b>Recuperar archivo Xml con linux:</b>
 <br>curl -o factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
