@@ -1,14 +1,13 @@
 # Factura Electrónica Afecta
 SDK Factronica
 
-Librería para Integración de Factura Electrónica con Software Propio
-
-Para realizar la integración se deben realizar 3 procesos.
-
+<br>A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio, la cual está agrupada en 5 procesos.
 <h3>Procesos:</h3>
 1.-Generar Archivo Plano con Formato Dte para Factura Electrónica Afecta.<br>
 2.-Enviar Archivo Plano hacia Servidor de Facturación.<br>
 3.-Recuperar Resultados desde Servidor de Facturación.<br>
+<br>4.-
+<br>5.-
 
 <h3>Proceso 1: Generar Archivo Plano</h3>
 Este proceso Consiste en generar un archivo de texto plano con el formato requerido.
