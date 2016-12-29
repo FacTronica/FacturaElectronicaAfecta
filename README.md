@@ -1,7 +1,7 @@
 # Factura Electrónica Afecta
 SDK Factronica
 
-<br>A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio, la cual está agrupada en 5 procesos.
+<br>A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio.
 <h3>Procesos:</h3>
 1.-Generar Archivo Plano con Formato Dte para Factura Electrónica Afecta.<br>
 2.-Enviar Archivo Plano hacia Servidor de Facturación.<br>
