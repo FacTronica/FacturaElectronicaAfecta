@@ -30,7 +30,7 @@ Desde la siguiente Url se puede obtener el Formato Requerido a Generar para Fact
 <h3>Proceso 2: Enviar Archivo Txt</h3>
 El archivo de texto plano generado en el "Proceso 1", se debe enviar al servidor de Facturación.
 <br>Para realizar este proceso se hace uso de librería opensource CURL.
-A continuación ejemplos para realizar el envío del Txt al Servidor de Facturación.
+<br>A continuación ejemplos para realizar el envío del Txt al Servidor de Facturación.
 
 <br><b>Enviar archivo txt desde Consola Windows:</b>
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
@@ -39,20 +39,20 @@ A continuación ejemplos para realizar el envío del Txt al Servidor de Facturac
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/sdk/ws_servidor/index.php
 
 <b>Enviar archivo txt desde Php:</b>
-$DocDte=new FactronicaWebservice(); 
-$DocDte->FactronicaEnviarPost();
-Más info de WebService Factronica Cliente
+<br>$DocDte=new FactronicaWebservice(); 
+<br>$DocDte->FactronicaEnviarPost();
+<br><br>Más info de WebService Factronica Cliente
 <br>https://github.com/FacTronica/FactronicaWebserviceCliente
 
 
-<h3>Proceso 3: Recuperar el XML con Libro d Ventas:</h3>
-Este proceso es necesario para poder obtener una copia del xml del libro de ventas para poder respaldarlo y posteriormente enviarlo al sii.
+<h3>Proceso 3: Recuperar el XML con Documento Electrónico:</h3>
+Este proceso es necesario para poder obtener una copia del xml del documento electrónico.
 
 <br>WINDOWS:
-<br>c:\curl\curl.exe -o c:\libros\libroventas201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas201611.xml
+<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
 
 <br>LINUX:
-<br>curl -o libroventas201611.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml_libroventa/libroventas201611.xml
+<br>curl -o factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
 
 
 <h3>Proceso 4: Recuperar Resultados:</h3>
