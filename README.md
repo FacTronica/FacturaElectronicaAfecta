@@ -25,9 +25,8 @@ Este proceso Consiste en generar un archivo de texto plano con el formato requer
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
 
 <h3>Proceso 2: Enviar Archivo Txt</h3>
-<br>El archivo de texto plano generado en el "Proceso 1", se debe enviar al servidor de Facturación.
-<br>Para realizar este proceso se hace uso de librería opensource CURL.
-<br>A continuación ejemplos para realizar el envío del Txt al Servidor de Facturación.
+<br>El archivo de texto plano generado en el "Proceso 1", se debe enviar al servidor de Facturación, para lo cual se hace uso de librería opensource CURL.
+<br>Envío del archivo plano TXT al Servidor de Facturación.
 <br><b>Enviar archivo txt desde Consola Windows:</b>
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
 
