@@ -25,24 +25,17 @@ Este proceso Consiste en generar un archivo de texto plano con el formato requer
 <br>https://github.com/FacTronica/FacturaElectronicaAfecta/blob/master/FormatoFacturaElectronica.php
 
 <h3>Proceso 2: Enviar Archivo Txt</h3>
-<br>El archivo de texto plano generado en el "Proceso 1", se debe enviar al servidor de Facturación, para lo cual se hace uso de librería opensource CURL.
-<br>Envío del archivo plano TXT al Servidor de Facturación.
-<br><b>Enviar archivo txt desde Consola Windows:</b>
+<br>Para enviar el archivo plano TXT al servidor de Facturación se hace uso de librería opensource CURL.
+<br><br>Enviar archivo txt desde Consola Windows:
 <br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
-
-<b>Enviar archivo desde Consola Linux:</b>
+<br><br>Enviar archivo desde Consola Linux:
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
-
 <h3>Proceso 3: Recuperar el XML con TrackID:</h3>
-Este proceso es necesario para poder validar que el sii haya recibido el documento emitido.
-
-<br>WINDOWS:
+Este proceso es necesario para poder validar que el SII Chile haya recibido el documento emitido.
+<br><br>WINDOWS:
 <br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33_trackid.xml http://www.factronica.cl/factronica_webservice_servidor_beta/trackid/factura_folio777_tipo33_trackid.xml
-
-<br>LINUX:
+<br><br>LINUX:
 <br>curl -o factura_folio777_tipo33_trackid.xml http://www.factronica.cl/factronica_webservice_servidor_beta/trackid/factura_folio777_tipo33_trackid.xml
-
-
 <h3>Proceso 4: Recuperar el PDF con Documento Electrónico:</h3>
 Este proceso es necesario para poder obtener una copia del pdf del documento electrónico.
 
