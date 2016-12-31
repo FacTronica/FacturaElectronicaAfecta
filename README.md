@@ -56,3 +56,9 @@ Este proceso es necesario para poder obtener una copia del xml del documento ele
 <br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
 <br><br><b>Recuperar archivo Xml con linux:</b>
 <br>curl -o factura_folio777_tipo33.xml http://www.factronica.cl/factronica_webservice_servidor_beta/xml/factura_folio777_tipo33.xml
+<br>
+<hr>
+<h3>Para desarrolladores de Sistemas escritos en PHP:</h3>
+Se recomienda utilizar el webservice cliente de Factronica, el cual realiza los 5 procesos mencionados dentro de una sola aplicación ya desarrollada y escrita en Php de forma nativa y haciendo uso de librera phpcurl.
+<br>En este punto se recomienda descargar la carpeta completa factronica_webservice_cliente desde el siguiente repositorio.
+<br>https://github.com/FacTronica/FactronicaWebserviceCliente
