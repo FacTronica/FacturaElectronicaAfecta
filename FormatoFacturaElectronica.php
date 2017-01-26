@@ -141,8 +141,10 @@ $IdDoc["FchEmis"]="2016-08-05";
 # FECHA DE VENCIMIENTO AAAA-MM-DD                                                                              
 $IdDoc["FchVenc"]="2016-08-05";
 #                                                                                                              
-# TEXTO CON FORMA DE PAGO                                                                                      
+# TEXTO CON LA CONDICIÓN DE PAGO, POR EJ. CONTADO, CONTRA ENTREGA, A 30 DÍAS FACTURACIÓN, ETC...
 $IdDoc["TermPagoGlosa"]="CONTADO";
+# TEXTO CON EL MEDIO DE PAGO, POR EJ. EFECTIVO, CHEQUE, TARJETA CRÉDITO, ETC...
+$IdDoc["MedioPago"]="EFECTIVO";
 #                                                                                                              
 # TIPO DE DOCUMENTO FV=33, ND=56, NC=61                                                                        
 $IdDoc["TipoDTE"]="33";
