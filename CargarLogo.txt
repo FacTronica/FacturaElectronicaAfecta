@@ -1,0 +1,8 @@
+Cargar Logo 
+
+Para cargar/importar el logo al servidor, se debe ir desde el navegador a la siguiente url:
+
+Por ejemplo:
+http://http://190.107.177.194/~ws_suservidor/servidor001/logo_upload.php
+
+El logo a Importar debe ser extencin .png y sus dimensiones deben ser de 120x120 pixels.
