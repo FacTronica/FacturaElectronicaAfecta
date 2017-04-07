@@ -337,4 +337,7 @@ $CAF["FRMA"]="nnnnnn";
 $CAF["RSASK"]="nnnnnnn";
 # LLAVE PUBLICA DEL TIMBRAJE                                                                                   
 $CAF["RSAPUBK"]="nnnnnnn";
+
+#
+$FACTRONICA["HTMLMAIL"]="<b>Este es un Ejemplo</b><I>de como armar el cuerpo del mail</i>";
 ?>
