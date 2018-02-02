@@ -20,3 +20,7 @@ $ImptoReten["26"]["TasaImp"]="20,5";
 Ejemplos de impuestos utilizados:
 codigo 24 - Tasa del 31,5% - Licores, Piscos, whisky, aguardiente, y vinos licorosos o aromatizados.
 codigo 26 - Tasa del 20,5% - Cervezas y bebidas alcohólicas
+
+Desde el siguiente link se puede descargar el manual del sii donde salen los impuestos adicionales.
+http://www.sii.cl/factura_electronica/factura_mercado/formato_dte.pdf
+En las páginas 44-45-46-47 se encuentra tabla con valores.
