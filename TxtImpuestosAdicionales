@@ -1,22 +1,22 @@
-<h3>Impuestos Adicionales:</h3>
+Impuestos Adicionales:
 
 Para agregar items con impuestos adicionales, se deben agregar dos linea al txt.
 Una línea en el detalle y otra línea en el resumen.
 
 En este ejemplo la factura tiene tres items, pero solamente los items 1 y 3 tienen impuesto adicional.
 
-<b>Agrega Línea al Detalle:</b>
+Agrega Línea al Detalle:
 $detalle["1"]["CodImpAdic"]="24";
 $detalle["3"]["CodImpAdic"]="26";
 
 
-<b>Agregar Línea al Resumen:</b>
+Agregar Línea al Resumen:
 $ImptoReten["24"]["MontoImp"]="31500";
 $ImptoReten["24"]["TasaImp"]="31,5";
 $ImptoReten["26"]["MontoImp"]="20500";
 $ImptoReten["26"]["TasaImp"]="20,5"; 
  
 
-<b>Ejemplos de impuestos utilizados:</b>
+Ejemplos de impuestos utilizados:
 codigo 24 - Tasa del 31,5% - Licores, Piscos, whisky, aguardiente, y vinos licorosos o aromatizados.
 codigo 26 - Tasa del 20,5% - Cervezas y bebidas alcohólicas
