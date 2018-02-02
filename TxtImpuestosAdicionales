@@ -1,0 +1,17 @@
+Impuestos Adicionales:
+
+Para agregar items con impuestos adicionales, se deben agregar dos linea al txt.
+Una línea en el detalle y otra línea en el resumen.
+
+En este ejemplo la factura tiene tres items, pero solamente los items 1 y 3 tienen impuesto adicional.
+
+Agrega Línea al Detalle:
+
+# item 1 - impuesto adicional codigo 27
+$detalle["1"]["CodImpAdic"]="27";
+
+# item 3 - impuesto adicional codigo 25
+$detalle["3"]["CodImpAdic"]="25";
+
+
+Agregar Línea al Resumen:
