@@ -1,0 +1,2 @@
+Pregunta 001: En que variable del txt se define el Folio al documento electrónico a emitir ?
+Respuesta 001: El folio lo debe asignar el sistema de gestión y enviarlo en la variable $IdDoc["Folio"]="12345";
