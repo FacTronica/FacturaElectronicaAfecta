@@ -33,6 +33,8 @@ Para enviar el archivo plano TXT al servidor de Facturación se hace uso de libr
 <br><br><b>Enviar archivo desde Consola Linux:</b>
 <br>curl --form "archivito=@archivo_plano.txt" http://www.factronica.cl/factronica_webservice_servidor_beta/index.php
 <br>
+<br>La librería CURL es de uso libre y se encuentra disponible en la siguiente url para descargar de acuerdo a la versión del sistema operativo que realizará el envío del txt al servidor de facturación.
+<br><b>Link Descargar CURL:</b> https://curl.haxx.se/download.html 
 <hr>
 <h3>Proceso 3: Recuperar el XML con TrackID:</h3>
 Este proceso es necesario para poder validar que el SII Chile haya recibido el documento emitido.
