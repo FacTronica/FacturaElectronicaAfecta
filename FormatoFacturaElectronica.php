@@ -12,9 +12,11 @@ $caratula["SucSii"]="SANTIAGO ORIENTE"; # NOMBRE SUCURSAL SII
 ##############################################################   
 #######	DATOS DEL ENCABEZADO
 ############################################################## 
-$IdDoc["FchEmis"]="2017-08-09";  # FECHA DE EMISIÓN AAAA-MM-DD
-$IdDoc["FchVenc"]="2017-08-09"; 	# FECHA DE VENCIMIENTO AAAA-MM-DD
-$IdDoc["TermPagoGlosa"]="CONTADO EFECTIVO"; # TEXTO FORMA DE PAGO
+$IdDoc["FchEmis"]="2017-08-09";     # FECHA DE EMISIÓN AAAA-MM-DD
+$IdDoc["FchVenc"]="2017-08-09"; 	  # FECHA DE VENCIMIENTO AAAA-MM-DD
+$IdDoc["TermPagoGlosa"]="CONTADO";  # CONDICION DE PAGO (CONTADO--A 30 DIAS-A 30,60 DIAS)
+$IdDoc["MedioPago"]="CHEQUE";       # MEDIO DE PAGO (EFECTIVO-CHEQUE-TARJETA-CREDITO)
+
 $IdDoc["TpoTranVenta"]="1"; # TIPO DE VENTA 1=DEL_GIRO 2=ACTIVO_FIJO 3=BIEN_RAIZ
 $IdDoc["TpoTranCompra"]="1"; # TIPO DE COMPRA 1=DEL_GIRO 2=SUPERMERCADOS 3=BIEN_RAIZ 4=ACTIVO_FIJO 5=IVA_USO_COMUN 6=SIN_DERECHO 7=NO_INCLUIR
 $IdDoc["FmaPago"]="1"; # 1=contado  2=credito   3=sin_costo
