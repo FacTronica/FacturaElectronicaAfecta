@@ -84,6 +84,8 @@ $detalle["1"]["MontoItem"]="1000000"; # SUBTOTAL DEL ITEM
 $detalle["1"]["DescuentoPct"]="10"; # DESCUENTO EN PORCENTAJE DEL ITEM
 $detalle["1"]["DscItemPesos"]="100000"; # DESCUENTO EN PESOS DEL ITEM 
 $detalle["1"]["IndExe"]="0"; # INDICADOR DE ITEM EXENTOS 1=SI 0=NO
+$detalle["1"]["DecimalesCantidad"]=2; # INDICADOR DE CANTIDAD DECIMALES PDF POR EJ 2
+$detalle["1"]["DecimalesUnitario"]=0; # INDICADOR DE CANTIDAD DECIMALES PDF POR EJ 0
 #
 # LINEA 2 DEL DETALLE DEL DOCUMENTO
 $detalle["2"]["NroLinDet"]="2"; # NUMERO DE LINEA
@@ -98,6 +100,8 @@ $detalle["2"]["MontoItem"]="500000"; # SUBTOTAL DEL ITEM
 $detalle["2"]["DescuentoPct"]="0"; # DESCUENTO EN PORCENTAJE DEL ITEM
 $detalle["2"]["DscItemPesos"]="0"; # DESCUENTO EN PESOS DEL ITEM 
 $detalle["2"]["IndExe"]="0"; # INDICADOR DE ITEM EXENTOS 1=SI 0=NO
+$detalle["2"]["DecimalesCantidad"]=2; # INDICADOR DE CANTIDAD DECIMALES PDF POR EJ 2
+$detalle["2"]["DecimalesUnitario"]=0; # INDICADOR DE CANTIDAD DECIMALES PDF POR EJ 0
 #
 # LINEA 3 DEL DETALLE DEL DOCUMENTO
 $detalle["3"]["NroLinDet"]="3"; # NUMERO DE LINEA
@@ -112,6 +116,8 @@ $detalle["3"]["MontoItem"]="140000"; # SUBTOTAL DEL ITEM
 $detalle["3"]["DescuentoPct"]="0"; # DESCUENTO EN PORCENTAJE DEL ITEM
 $detalle["3"]["DscItemPesos"]="0"; # DESCUENTO EN PESOS DEL ITEM 
 $detalle["3"]["IndExe"]="0"; # INDICADOR DE ITEM EXENTOS 1=SI 0=NO
+$detalle["3"]["DecimalesCantidad"]=2; # INDICADOR DE CANTIDAD DECIMALES PDF POR EJ 2
+$detalle["3"]["DecimalesUnitario"]=0; # INDICADOR DE CANTIDAD DECIMALES PDF POR EJ 0
 
 ############################################################## 
 #######	DATOS CERTIFICADO DE PERSONA QUE FIRMA Y ENVIA
