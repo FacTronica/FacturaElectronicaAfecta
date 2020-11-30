@@ -1,0 +1,14 @@
+<?php
+
+############################################################## 
+#######	DESCUENTOS / RECARGOS       GLOBALES
+##############################################################
+$DscRcgGlobal["1"]["NroLinDR"]="1";
+$DscRcgGlobal["1"]["TpoMov"]="D"; //D=Descuento R=Recargo
+$DscRcgGlobal["1"]["GlosaDR"]="Descuento a cliente preferencial";
+$DscRcgGlobal["1"]["TpoValor"]="%"; // % o $
+$DscRcgGlobal["1"]["ValorDR"]="10";  // 10% descuento
+$DscRcgGlobal["1"]["ValorDROtrMnda"]="10000"; // 10mil equivale al 10% de descuento de un neto de 100.000
+$DscRcgGlobal["1"]["IndExeDR"]="0"; // 1=ItemExento 0=ItemAfectoIva
+
+?>
