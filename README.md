@@ -29,9 +29,9 @@ Este proceso Consiste en generar un archivo de texto plano con el formato requer
 <h3>Proceso 2: Enviar Archivo Txt</h3>
 Para enviar el archivo plano TXT al servidor de Facturación se hace uso de librería opensource CURL.
 <br><br><b>Enviar archivo txt desde Consola Windows:</b>
-<br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" http://www.facturalibre.cl/sdk_factronica/factronica_creadte/recibe_txt_dte.php
+<br>c:\curl\curl.exe --form "archivito=@c:\curl\archivo_plano.txt" https://servidor3.factronica.cl/api/factronica_factura_creadte/index.php?apikey=abc123
 <br><br><b>Enviar archivo desde Consola Linux:</b>
-<br>curl --form "archivito=@archivo_plano.txt" http://www.facturalibre.cl/sdk_factronica/factronica_creadte/recibe_txt_dte.php
+<br>curl --form "archivito=@archivo_plano.txt" https://servidor3.factronica.cl/api/factronica_factura_creadte/index.php?apikey=abc123
 <br>
 <br>La librería CURL es de uso libre y se encuentra disponible en la siguiente url para descargar de acuerdo a la versión del sistema operativo que realizará el envío del txt al servidor de facturación.
 <br><b>Link Descargar CURL:</b> https://curl.haxx.se/download.html 
@@ -39,23 +39,23 @@ Para enviar el archivo plano TXT al servidor de Facturación se hace uso de libr
 <h3>Proceso 3: Recuperar el XML con TrackID:</h3>
 Este proceso es necesario para poder validar que el SII Chile haya recibido el documento emitido.
 <br><br><b>Recuperar archivo xml con Windows:</b>
-<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33_trackid.xml http://www.facturalibre.cl/sdk_factronica/home/rutpyme/factura_folio777_tipo33_trackid.xml
+<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33_trackid.xml https://servidor3.factronica.cl/api/home/{rutpyme}/factura_folio777_tipo33_trackid.xml
 <br><br><b>Recuperar Archivo Xml con Linux:</b>
-<br>curl -o factura_folio777_tipo33_trackid.xml http://www.facturalibre.cl/sdk_factronica/home/rutpyme/factura_folio777_tipo33_trackid.xml
+<br>curl -o factura_folio777_tipo33_trackid.xml https://servidor3.factronica.cl/api/home/{rutpyme}/factura_folio777_tipo33_trackid.xml
 <br>
 <hr>
 <h3>Proceso 4: Recuperar el PDF con Documento Electrónico:</h3>
 Este proceso es necesario para poder obtener una copia del pdf del documento electrónico.
 <br><br><b>Recuperar archivo Pdf con Windows:</b>
-<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.pdf http://www.facturalibre.cl/sdk_factronica/home/rutpyme/factura_folio777_tipo33.pdf
+<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.pdf https://servidor3.factronica.cl/api/home/{rutpyme}/factura_folio777_tipo33.pdf
 <br><br><b>Recuperar archivo Pdf con Linux:</b>
-<br>curl -o factura_folio777_tipo33.pdf http://www.facturalibre.cl/sdk_factronica/home/rutpyme/factura_folio777_tipo33.pdf
+<br>curl -o factura_folio777_tipo33.pdf https://servidor3.factronica.cl/api/home/{rutpyme}/factura_folio777_tipo33.pdf
 <br>
 <hr>
 <h3>Proceso 5: Recuperar el XML con Documento Electrónico:</h3>
 Este proceso es necesario para poder obtener una copia del xml del documento electrónico.
 <br><br><b>Recuperar archivo Xml con Windows:</b>
-<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.xml http://www.facturalibre.cl/sdk_factronica/home/rutpyme/factura_folio777_tipo33.xml
+<br>c:\curl\curl.exe -o c:\curl\factura_folio777_tipo33.xml https://servidor3.factronica.cl/api/home/{rutpyme}/factura_folio777_tipo33.xml
 <br><br><b>Recuperar archivo Xml con linux:</b>
-<br>curl -o factura_folio777_tipo33.xml http://www.facturalibre.cl/sdk_factronica/home/rutpyme/factura_folio777_tipo33.xml
+<br>curl -o factura_folio777_tipo33.xml https://servidor3.factronica.cl/api/home/{rutpyme}/factura_folio777_tipo33.xml
 <br>
