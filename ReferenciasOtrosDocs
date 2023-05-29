@@ -1,0 +1,26 @@
+Para Agregar referencias se debe agregar las siguientes variables en el json
+
+#########################################
+# REFERENCIAS
+#########################################
+#
+# NUMERO DE REFERENCIA 1,2,3,ETC...
+"NroLinRef"=>array(1),				
+#
+# TIPO DE DTE AL CUAL REFERENCIA
+"TpoDocRef"=>array("801"),				
+#
+# SE APLICA SOLO PARA FACTURACION MASIVA DE GUIA
+"IndGlobal"=>array(),
+#
+# FOLIO DEL DOCUMENTO QUE SE REFERENCIA
+"FolioRef"=>array("AS-334455"),
+#
+# FECHA DEL DTE QUE SE REFERENCIA
+"FchRef"=>array("2021-03-11"),
+#
+# MOTIVO 1=ANULA  2=CORRIGE_TEXTO   3=CORRIGE_VALORES
+"CodRef"=>array(),  				
+#
+# COMENTARIO INDICANDO MOTIVO DE LA REFERENCIA
+"RazonRef"=>array("ORDEN DE COMPRA AS-334455"), 	
