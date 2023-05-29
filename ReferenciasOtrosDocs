@@ -1,4 +1,7 @@
 Para Agregar referencias se debe agregar las siguientes variables en el json
+Es importante señalar que se pueden enviar multiples referencias a distintos documentos.
+Es por ello que por cada variable tenemos un array.
+En este ejemplo estamos pasando solamente una referencia que corresponde a la orden de compra.
 
 <?php
 #########################################
