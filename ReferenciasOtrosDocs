@@ -1,5 +1,6 @@
 Para Agregar referencias se debe agregar las siguientes variables en el json
 
+<?php
 #########################################
 # REFERENCIAS
 #########################################
@@ -23,4 +24,9 @@ Para Agregar referencias se debe agregar las siguientes variables en el json
 "CodRef"=>array(),  				
 #
 # COMENTARIO INDICANDO MOTIVO DE LA REFERENCIA
-"RazonRef"=>array("ORDEN DE COMPRA AS-334455"), 	
+"RazonRef"=>array("ORDEN DE COMPRA AS-334455")
+
+?>
+
+En el siguiente manual del sii (Página 41 se indican los códigos de referencias)
+https://www.sii.cl/factura_electronica/factura_mercado/formato_dte_201911.pdf
