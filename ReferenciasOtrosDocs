@@ -23,6 +23,7 @@ En este ejemplo estamos pasando solamente una referencia que corresponde a la or
 # FECHA DEL DTE QUE SE REFERENCIA
 "FchRef"=>array("2021-03-11"),
 #
+# SOLO APLICA A NOTA DE CREDITO O NOTA DE DEBITO
 # MOTIVO 1=ANULA  2=CORRIGE_TEXTO   3=CORRIGE_VALORES
 "CodRef"=>array(),  				
 #
