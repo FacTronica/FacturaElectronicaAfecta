@@ -11,7 +11,8 @@ En este ejemplo estamos pasando solamente una referencia que corresponde a la or
 # NUMERO DE REFERENCIA 1,2,3,ETC...
 "NroLinRef"=>array(1),				
 #
-# TIPO DE DTE AL CUAL REFERENCIA
+#TIPO DE DTE AL CUAL REFERENCIA
+# SI REFERENCIA FACTURA_ELEC=33 BOLETA=39 ORDEN COMPRA=801  PEDIDO=802
 "TpoDocRef"=>array("801"),				
 #
 # SE APLICA SOLO PARA FACTURACION MASIVA DE GUIA
@@ -24,7 +25,7 @@ En este ejemplo estamos pasando solamente una referencia que corresponde a la or
 "FchRef"=>array("2021-03-11"),
 #
 # SOLO APLICA A NOTA DE CREDITO O NOTA DE DEBITO
-# MOTIVO 1=ANULA  2=CORRIGE_TEXTO   3=CORRIGE_VALORES
+# MOTIVO 1=ANULA  2=CORRIGE_TEXTO   3=CORRIGE_VALORES LO MISMO QUE DEVOLUCION PARCIAL 4=DEVOLUCION
 "CodRef"=>array(),  				
 #
 # COMENTARIO INDICANDO MOTIVO DE LA REFERENCIA
