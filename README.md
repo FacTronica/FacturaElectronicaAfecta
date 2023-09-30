@@ -8,7 +8,7 @@ SDK Factronica
 <br>4.-Recuperar Archivo XML con Documento Electrónico
 <br>5.-Recuperar Archivo PDF con Documento Electrónico
 <hr>
-<h3>Proceso 1: Generar Archivo Plano...</h3>
+<h3>Proceso 1: Generar Archivo Plano</h3>
 Este proceso Consiste en generar un archivo de texto plano con el formato requerido por el sdk de factronica.
 <br>Dentro del archivo de texto plano debe ir la información que compone al documento emitido:
 <br><b>Información Requerida para construir el TXT:</b>
