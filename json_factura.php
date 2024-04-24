@@ -2,19 +2,18 @@
 #
 #############################################################################
 #
-# PLANTILLA DE EJEMPLO CON DATOS A ENVIAR PARA EMITIR FACTURA ELECTRÓNICA
+# PLANTILLA DE EJEMPLO CON DATOS A ENVIAR PARA EMITIR FACTURA ELECTRÃ“NICA
 #
 #############################################################################
 
 
 #
-# ARRAY CON DATOS PARA EMITIR FACTURA ELECTRÓNICA TIPO 33
+# ARRAY CON DATOS PARA EMITIR FACTURA ELECTRÃ“NICA TIPO 33
 $DatosDTE = array(
 
 #########################################
 # DATOS DE CARATULA 
 #########################################
-"RutEmisor" =>"11111111-1",
 "RutEnvia" =>"26009913-2",
 "RutReceptor" =>"60803000-K", 
 "FchResol" =>"2014-08-22",
@@ -181,8 +180,6 @@ EO+7hfE3rRFbJwlJVhDa22hFbKhW1PFejp+IHAi5s5E=",
 
 "X509Certificate"=>"MIIGQzCCBSugAwIBAgIKTy8J4QAAABJFBjANBgkqhkiG9w0BAQUFADCB0jELMAkG
 A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
-Ns+zrUW1g5yYKkB2rxo3i+y8Mk/ZIhuIU079XPoBtemvdXXTHStfHKMmaPH4OiI1
-YAwT7W/88r/tINY/i4vXfOg1Xh+CKWl/rX+kywcIWo9ruiGpdIojJL5B2OqoC8+f
 4MxpgF7YC0YyPjaaze6jbNfGVbrJS8MD1uzAvIo6E2Vo1J4jdYJeUnOw4fQBFnoD
 SQThgpn5uoVgia2NUpqAQRJ4BArT0Bc=",
 
@@ -218,9 +215,6 @@ wCg9V1Xba89Lrn4hexUCQDSM76rTE+w4JqDFNKBgEvmUhbR7UwgS5CuzQhm75MGk
 
 "RSASK"=>"-----BEGIN RSA PRIVATE KEY-----
 MIIBOQIBAAJBAKydINWabBBno+h7p2attTtnSllWIeLuAf6V7HDuSpPwADTCh6YG
-52lPZg00O/jvMYXdU0bjQCF3Kpasl20qeh8CAQMCQHMTazkRnWBFF/BSb5nJI3zv
-huY5a+yeq/8OnaCe3GKe58oWxS5SBQw21QBP+KYPzOUDfoldajl4YrhNMIBjF4sC
-IQDWy3cZGCQFnDoxWVW6n4zubDWGeYavjHYPrDpvZYoi+QIhAM26KUbIZ9o6wvUz
 ZoxgSo/CIo7/UHE+zIbV/l9HC7PXAiEAjzJPZhAYA718IOY5JxUInvLOWaZZyl2k
 CnLRn5kGwfsCIQCJJsYvMEU8Jyyjd5my6txf1sG0qjWg1IhZ4/7qL10ijwIgd5lz
 6UERLy4itp+6f0uT3RykZvhX64e9Ztq/Hrccp/E=
