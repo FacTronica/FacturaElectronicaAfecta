@@ -1,12 +1,12 @@
-# Factura Electrónica Afecta
-SDK Factronica
-<br>A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio.
-<h3>Procesos a Realizar:</h3>
-1.-Generar Archivo Plano TXT
-<br>2.-Enviar Archivo Plano TXT al Servidor de Facturación
-<br>3.-Recuperar Archivo XML con TrackID
-<br>4.-Recuperar Archivo XML con Documento Electrónico
-<br>5.-Recuperar Archivo PDF con Documento Electrónico
+# API Factronica SII Chile
+  
+A continuación se detalla el Procedimiento para realizar la Emisión de Documentos Electrónicos con Software Propio.  
+## Procesos a Realizar:
+1.-Generar Json o Txt con datos del DTE  
+2.-Enviar Json o Txt a la API Factronica  
+3.-Recuperar Archivo XML con TrackID  
+4.-Recuperar Archivo XML con Documento Electrónico  
+5.-Recuperar Archivo PDF con Documento Electrónico  
 <hr>
 <h3>Proceso 1: Generar Archivo Plano</h3>
 Este proceso Consiste en generar un archivo de texto plano con el formato requerido por el sdk de factronica.
