@@ -33,11 +33,11 @@
   "DescuentoPct": [0, 0, 0],
   "DscItemPesos": [0, 0, 0],
   "MontoItem": [2000, 5000, 3000],
-  "NroLinRef": [],
-  "TpoDocRef": [],
-  "IndGlobal": [],
-  "FolioRef": [],
-  "FchRef": [],
-  "CodRef": [],
-  "RazonRef": []
+  "NroLinRef": [1],
+  "TpoDocRef": [801],
+  "IndGlobal": [0],
+  "FolioRef": ["oc123"],
+  "FchRef": ["2025-05-12"],
+  "CodRef": [0],
+  "RazonRef": ["Orden Compra oc123"]
 }
